@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-print("Hello")
-=======
 import discord
 import os
 API_KEY = os.environ.get('DISCORD_API_KEY')
@@ -20,4 +17,3 @@ async def on_message(message):
         await message.channel.send('Hello!')
 
 client.run(API_KEY)
->>>>>>> 0a3cecc2074dfd3cf521f0262242cc1e89ab089f
